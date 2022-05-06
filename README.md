@@ -1,5 +1,5 @@
 # 💭 | What is this repository for?
-This reposiroty is for you, the **Hawking's** community!
+This reposiroty is for you, the **Hawking's** community! <br>
 You can navigate through the folders and help me to reach more languages translating the bot's files.
 
 Currently the bot supports:
