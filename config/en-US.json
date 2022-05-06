@@ -1,63 +1,63 @@
 [
   // Cleanup Whitelisted Channels
   {
-    "name": "cleanup_all",
+    "value": "cleanup_all",
     "module": "` Text to Speech `",
     "title": "CleanUp All Whitelisted Channels",
     "description": "If this feature is enabled, all whitelisted channels will delete all messages once they're read.\n\n**Note:**\nThis will not affect those channels where <@828540208743710741> does not have `\u00A0VIEW_CHANNEL\u00A0` or `\u00A0MANAGE_MESSAGES\u00A0` permissions."
   },
   // Custom User Aliases
   {
-    "name": "custom_aliases",
+    "value": "custom_aliases",
     "module": "` Text to Speech `",
     "title": "Custom User Aliases",
     "description": "If this feature is enabled, users will be able to change their own **aliases** with the `\u00A0/alias\u00A0` command. The alias is readed by <@828540208743710741> when a user sends a message."
   },
   // Custom User Languages
   {
-    "name": "custom_languages",
+    "value": "custom_languages",
     "module": "` Text to Speech `",
     "title": "Custom User Languages",
     "description": "If this feature is enabled, users will be able to set their own languages for their messages to be read with the `\u00A0/language\u00A0` command. The **default server's language** will be used by default on new users."
   },
   // Custom User Reading Speed
   {
-    "name": "custom_speed",
+    "value": "custom_speed",
     "module": "` Text to Speech `",
     "title": "Custom Reading Speeds",
     "description": "**Only for level 3+ upgraded servers.**\nIf this feature is enabled, users will be able to change their own **reading speeds** with the `\u00A0/speed\u00A0` command.\n\nThere are 4 different speeds: `\u00A0Slow\u00A0(0.5)\u00A0`, `\u00A0Normal\u00A0(1.0)\u00A0`, `\u00A0Fast\u00A0(1.5)\u00A0` and `\u00A0Super\u00A0Fast\u00A0(2.0)\u00A0`."
   },
   // Enable Message References
   {
-    "name": "enable_references",
+    "value": "enable_references",
     "module": "` Text to Speech `",
     "title": "Enable References",
     "description": "References are quick descriptions of certain type of messages. At this moment there are 4 different references, these are `\u00A0Simple\u00A0Message\u00A0`, `\u00A0Message\u00A0Reply\u00A0`, `\u00A0Message\u00A0with\u00A0Attachment\u00A0` and `\u00A0Message\u00A0with\u00A0URL\u00A0`.\n\n**Note**\nReferences also support 3 different variables:\n`\u00A0{user}\u00A0` - Message Author \n`\u00A0{target}\u00A0` - Message First Mentioned User\n`\u00A0{domain}\u00A0` - URL Domain Name"
   },
   // Enable Messages Translation
   {
-    "name": "enable_translation",
+    "value": "enable_translation",
     "module": "` Text to Speech `",
     "title": "Enable Translation",
     "description": "If this feature is enabled, users will be able to configure if their messages should be translated to the server's language before being read with the `\u00A0/translate\u00A0` command. Translation can only be done into the server's language, no matter what language the user has choosed."
   },
   // Read Long Numbers
   {
-    "name": "long_numbers",
+    "value": "long_numbers",
     "module": "` Text to Speech `",
     "title": "Read Long Numbers",
     "description": "If this feature is enabled, <@828540208743710741> will read long numbers, such as `\u00A01,000,000\u00A0`, `\u00A01.2345\u00A0`, `\u00A0-500,000\u00A0` and so. This feature is disabled by default, which means these long numbers will be ignored when reading the message."
   },
   // Require Prefix for Reading Messages
   {
-    "name": "require_prefix",
+    "value": "require_prefix",
     "module": "` Text to Speech `",
     "title": "Require Prefix",
     "description": "If this feature is enabled, <@828540208743710741> will expect a `\u00A0tts\u00A0` in front of the messages for them to be readed. In other words, messages must look like `\u00A0tts\u00A0hello\u00A0there!\u00A0` to be readed."
   },
   // Custom Names on Temporary Channels
   {
-    "name": "custom_channel_names",
+    "value": "custom_channel_names",
     "module": "` Temporary Channels `",
     "title": "Custom Channel Names",
     "description": "If this feature is enabled, channels hosts can edit their temporary channels' names. This is not recommended for **Community Servers** since some users can use bad words and/or harmful language."
