@@ -3,7 +3,7 @@
 The json keys must **not** be translated. <br>
 These keys are the ones **Hawking's** use to identify the content that is going to be used.
 
-Also, the ` id ` value must not be translated. <br>
+Also, the ` value ` key content must not be translated. <br>
 So, with that said, the translation must look like this:
 ```json
 // Original
